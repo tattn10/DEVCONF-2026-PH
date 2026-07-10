@@ -1,0 +1,3 @@
+give me some ideas of what are the possible elegant section can a devconf-26 promotional event website can have
+this website has already these section and there is missing would be ai generated section , think yourself as a senior web dev and ui/ux designer , what should you include ? make this prompt 10 times better also as a prompt engineer(ui img was uploaded)
+generate html and css code for this section -AI-Conference assistant , compatible with the exsisting page ui/ux, design. no js . need not be functional. 
