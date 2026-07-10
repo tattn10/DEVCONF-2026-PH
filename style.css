@@ -253,7 +253,14 @@ main{
     border: 1px solid #0D1B2A;
 }
 
+/* ai genrated section */
 
+.ai-generated img{
+height: 80%;
+width: 80%;
+margin: auto;
+display: block;
+}
 
 /* footer section styles */
 
