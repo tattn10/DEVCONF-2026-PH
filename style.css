@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* common styles */
+
+.common-side-space {
+    margin-left: 7.5% !important;
+    margin-right: 7.5% !important;
+}
+
+.btn {
+    background-color: #1D4ED8;
+    color: white;
+    padding: 12px 41.5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #0631a8;
+}
+
+.color-blue{
+    color: #2563EB;
+}
+.color-grey{
+    color:#575757;
+}
+
+
+/* nav section styles */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.nav-logo img {
+    height: 44px;
+    width: 134px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #575757;
+}
+.nav-menu li a:hover{
+    color:#1f1f1f;
+}
+
+
+
+/* banner section styles */
+
+.banner {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .6) 30%, transparent 70%), linear-gradient(to top right, rgba(0, 0, 0, .9) 13%,transparent 87%), url('./assets/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner .banner-txt h1{
+  font-size: 5rem;
+  padding-bottom: .3em;
+}
+
+
+.banner .banner-txt p{
+font-size: 1.3rem;
+width: 50%;
+margin: 0 auto;
+}
+
+.banner .btn{
+    padding:25px 62.5px;
+    border-radius:10px;
+}
+
+
+/* meet speakers styles */
+main{
+    margin: 4em 0;
+}
+.meet-speakers{
+    margin: 5em 0;
+    text-align: center;
+}
+.meet-speakers h1{
+    font-size: 3.1rem;
+    padding-bottom: 1em;
+}
+.speaker-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2em;
+}
+
+.speaker-card{
+    border: 1px solid #E5E7EB;
+    width:100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.speaker-card:hover{
+    transform: scale(1.01);
+    transition: .8s ease-in-out;
+}
+
+.speaker-card .speaker-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 12px 0 0;
+    
+}
+
+.speaker-card .speaker-intro{
+    text-align: left;
+    padding:  1.5em;
+}
+.speaker-card .speaker-intro p,h3{
+    padding-bottom: 8px;
+}
+
+.speaker-intro > p{
+    font-size: 12px;
+}
+
+
+/* secure spot styles */
+.secure-spot{
+    position: relative;
+    text-align: center;
+    margin: 7em 0;
+}
+.underlay-img{
+    position: absolute;
+    z-index: -5;
+    top: 2em;
+    left: 25%;
+}
+.underlay-img img{
+    opacity: .9;
+}
+.secure-spot h2{
+    font-size: 2rem;
+    padding: 12px 0;
+}
+
+.package-card-conatainer{
+    display: flex;
+   gap: 24px;
+   margin: 4em 0;
+   justify-content: center;
+}
+
+.package-card{
+    text-align: left;
+    padding:32px;
+    border: 1px solid #E5E7EB;
+   max-width: 370px ;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.package-card:hover{
+    transform: scale(1.02);
+    transition: .8s ease-in-out;
+}
+
+.package-card .package-top > p{
+    font-size: 12px;
+     font-weight:400;
+}
+
+.package-card .package-top > h2{
+    padding: 6px 0;
+}
+
+.package-card hr{
+    margin: 20px 0;
+}
+
+.package-card  ul{
+    list-style-position: inside;
+}
+
+.package-card ul li{
+    padding: 10px 0;
+    color:#333333;
+}
+
+.package-card ul li::marker{
+    color:#2563EB;
+}
+.package-card .package-btn button{
+    width: 100%;
+    text-align: center;
+    color:#2563EB;
+    background-color: white;
+    border:1px solid #2563EB;
+    font-weight:bolder;
+    margin-top: 20px;
+}
+.pro{
+    background-color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+    color: white;
+}
+.pro ul li{
+ color: rgba(255,255,255,.8);
+}
+
+.pro .package-btn button{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+}
+.team{
+    background-color: #F8F9FB;
+    border: 1px solid #E5E7EB;
+}
+.team .package-btn button{
+    background-color: #F8F9FB;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
