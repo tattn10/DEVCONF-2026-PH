@@ -252,3 +252,52 @@ main{
     color: #0D1B2A;
     border: 1px solid #0D1B2A;
 }
+
+
+
+/* footer section styles */
+
+footer{
+    background-color:#0D1B2A ;
+    padding: 3em 5em 1em 5em;
+}
+
+.upper-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-logo{
+    padding-top: 4px;
+}
+
+.media-icons h3{
+    color: rgba(255,255,255,.7);
+    padding-left: .5em;
+}
+.media-icons a{
+    padding: 0 .5em;
+}
+.media-icons a i{
+    color:#2563EB;
+    font-size: 1.2rem;
+}
+footer hr{
+border:1px solid #575757;
+    margin: 2em auto .3em auto;
+    width: 80%;
+
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright div{
+    display: flex;
+    gap: 8px;
+}
+.copyright p,a{
+    font-size: 14px;
+    color: rgba(255,255,255,.6);
+}
